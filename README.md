@@ -13,16 +13,15 @@ The homepage is designed to communicate:
 ## Current Site
 
 - Hero: `Dober Family Ventures` with the mission line `Building businesses that strengthen households.`
-- Portfolio overview: Maintley, Family Economy, and Future Ventures
-- Current ventures section: the primary path to the live products
-- Principles section: practical, systems-first, family-centered, long-term thinking
-- Footer: brand mark, tagline, navigation, and contact email
+- Portfolio overview: Maintley and Family Economy
+- Our ventures section: the primary path to the live products
+- How we build section: practical, systems-first, family-centered, long-term thinking
+- Footer: brand logo, grouped navigation, and company subfooter
 
 ## Current Ventures
 
 - Maintley: `https://www.maintleyapp.com`
-- Family Economy: deployed, domain pending
-- Future Ventures: additional household-focused businesses under exploration
+- Family Economy: `https://doberfamilyventures.github.io/FamilyEconomy/`
 
 ## Local Development
 
@@ -40,6 +39,20 @@ yarn build
 yarn lint
 ```
 
+## Deployment
+
+This site is configured to deploy to GitHub Pages through GitHub Actions.
+
+Push to `main`:
+
+```bash
+git push -u origin main
+```
+
+Then confirm the repository uses `GitHub Actions` in `Settings -> Pages`.
+
+The workflow lives in [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+
 ## Documentation
 
 Start with the docs index in [docs/README.md](docs/README.md).
@@ -55,4 +68,3 @@ Key references:
 ## Contact
 
 `doberfamilyventures@gmail.com`
-
