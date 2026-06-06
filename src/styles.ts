@@ -574,24 +574,6 @@ export const VentureLogo = styled.img`
   flex: 0 0 auto;
 `
 
-export const VentureLogoPlaceholder = styled.div`
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 16px;
-  border: 1px solid rgba(134, 185, 107, 0.28);
-  background:
-    linear-gradient(180deg, rgba(134, 185, 107, 0.12), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.02);
-  color: var(--cream);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-`
-
 export const VentureCard = styled.article<{ $featured?: boolean }>`
   grid-column: ${({ $featured }) => ($featured ? '1 / -1' : 'auto')};
   padding: ${({ $featured }) => ($featured ? '28px' : '22px')};

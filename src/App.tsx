@@ -50,7 +50,6 @@ import {
   VentureIdentityCopy,
   VentureLink,
   VentureLogo,
-  VentureLogoPlaceholder,
   VentureText,
   VenturesGrid,
   VenturesSection,
@@ -176,7 +175,7 @@ function App() {
           <VenturesGrid>
             <VentureCard id="maintley">
               <VentureIdentity>
-                <VentureLogo src="/maintleylogo.png" alt="Maintley logo" />
+                <VentureLogo src="/maintley.png" alt="Maintley logo" />
                 <VentureIdentityCopy>
                   <VentureEyebrow>Operating venture</VentureEyebrow>
                   <VentureTitle>Maintley</VentureTitle>
@@ -202,14 +201,14 @@ function App() {
 
             <VentureCard id="family-economy">
               <VentureIdentity>
-                <VentureLogoPlaceholder aria-hidden="true">FE</VentureLogoPlaceholder>
+                <VentureLogo src="/familyeconomy.png" alt="Family Economy logo" />
                 <VentureIdentityCopy>
                   <VentureEyebrow>Venture in development</VentureEyebrow>
                   <VentureTitle>Family Economy</VentureTitle>
                 </VentureIdentityCopy>
               </VentureIdentity>
               <VentureText>
-                Financial literacy and family systems.
+                Building responsibility, habits, and financial confidence together.
               </VentureText>
               <VentureText>
                 A household system for teaching responsibility, earning, saving, and financial
@@ -321,7 +320,7 @@ function App() {
           </FooterNav>
         </FooterBar>
         <FooterSubfooter>
-          <FooterSmall>© 2026 Dober Family Ventures · Family-owned operating company</FooterSmall>
+          <FooterSmall>Copyright 2026 Dober Family Ventures | Family-owned operating company</FooterSmall>
         </FooterSubfooter>
       </Footer>
     </AppShell>
